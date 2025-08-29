@@ -1,0 +1,175 @@
+# ------------------------------
+# SITE METADATA
+# ------------------------------
+site_name: Interact Documentation            # <-- Shown in the header if no logo or as HTML title
+site_description: Documentation for Interact, the ODR platform by Nuvalaw
+site_author: Nuvalaw
+site_url: https://help.nuvalaw.com           # <-- Important for sitemap, canonical URLs, and SEO
+
+# Optional but useful (uncomment if you have a repo)
+# repo_url: https://github.com/nuvalaw/interactdocs
+# repo_name: nuvalaw/interactdocs
+# edit_uri: edit/main/docs/                   # <-- Enables "Edit this page" links
+
+# ------------------------------
+# THEME (MkDocs Material)
+# ------------------------------
+theme:
+  name: material
+  language: en
+
+  # Web fonts (Material will load these from Google Fonts by default)
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+
+  # Feature flags (safe, common defaults)
+  features:
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+
+  # Branding
+  logo: assets/nuvalaw-logo-plain.svg
+  favicon: assets/nuvalaw-favicon.png
+
+  # Color schemes (light/dark)
+  palette:
+    - scheme: default
+      primary: white            # <-- Allowed, but if contrast looks off, consider 'indigo' or similar
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+# ------------------------------
+# NAVIGATION
+# (Order doesn’t matter to MkDocs, but keep it human-ordered.)
+# ------------------------------
+nav:
+  - Home: index.md
+  - Workflows:
+      - Base Flow: shared/base-flow.md
+  - Page: page.md
+  # If you use the Material "blog" plugin, it auto-builds the blog.
+  # You can either keep a manual page OR rely on the plugin's index.
+  - Blog:
+      - blog/index.md
+
+# ------------------------------
+# PLUGINS
+# (Order CAN matter. We include first, then macro-expand.)
+# ------------------------------
+plugins:
+  - search
+  - blog                       # <-- Enable only if your Material version supports it
+  - include-markdown             # <-- Run first so included content is present...
+  - macros                       # <-- ...then macros expand inside included content
+
+# ------------------------------
+# MARKDOWN EXTENSIONS
+# ------------------------------
+markdown_extensions:
+  # Core Python-Markdown set
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+
+  # Table of contents (permalinks on headings)
+  - toc:
+      permalink: true
+
+  # PyMdown Extensions (powerful extras)
+  - pymdownx.snippets
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight          # <-- Syntax highlighting; configure more if you want line numbers, etc.
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# ------------------------------
+# EXTRA (theme-specific data)
+# ------------------------------
+extra:
+  company: Nuvalaw
+  support_email: support@nuvalaw.com
+
+  # Cookie consent banner (Material reads this structure)
+  consent:
+    title: Cookie consent
+    description: >-
+      Nuvalaw uses cookies to recognize your repeated visits and preferences,
+      measure the effectiveness of our documentation, and help users find what
+      they’re searching for. With your consent, you’re helping us improve our docs.
+      You can read more about the cookies we use in our
+      <a href="https://www.nuvalaw.com/privacy-policy-nuvalaw" target="_blank" rel="noopener">privacy policy</a>.
+
+  # Analytics (Material v9+ style)
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX      # <-- Replace with your GA4 property ID when ready
+
+  # Feedback widget (⚠️ This must be a sibling of analytics, not nested under it)
+  feedback:
+    title: Was this page helpful?
+    ratings:
+      - icon: material/thumb-up-outline
+        name: This page was helpful
+        data: 1
+        note: >-
+          Thank you for your feedback!
+      - icon: material/thumb-down-outline
+        name: This page could be improved
+        data: 0
+        note: >-
+          Thanks for your feedback. Help us improve this page by using our
+          <a href="https://forms.example.com/nuvalaw-docs-feedback" target="_blank" rel="noopener">feedback form</a>.
+
+  # Header social icons
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/nuvalaw/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:support@nuvalaw.com
+
+# ------------------------------
+# COPYRIGHT
+# ------------------------------
+copyright: >
+  Copyright © 2017 - 2025 Nuvalaw UK Limited, 1 Paternoster Lane, St. Paul’s, London EC4M 7BQ
+
+# ------------------------------
+# ASSETS
+# ------------------------------
+extra_css:
+  - stylesheets/extra.css
