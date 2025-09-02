@@ -86,7 +86,8 @@ nav:
 plugins:
   - search
   - blog                       # <-- Enable only if your Material version supports it
-  - include-markdown             # <-- Run first so included content is present...
+  - include-markdown:
+      rewrite_relative_urls: true   # make it explicit
   - macros                       # <-- ...then macros expand inside included content
 
 # ------------------------------
