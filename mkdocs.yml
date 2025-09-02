@@ -62,9 +62,18 @@ theme:
 # ------------------------------
 nav:
   - Home: index.md
-  - Workflows:
-      - Base Flow: shared/base-flow.md
-  - Page: page.md
+  - BASE FLOW:
+      - Base Flow Overview: 0-flow-overview.md
+      - 1. Referring a Case: 1-refer-claim-claimant.md
+      - 2. Responding to a Case: 2-respond-to-referral-defendant.md
+      - 3. Final Review: 3-final-review-claimant.md
+      - 4. Accept & Settle: 4-accept-settle.md
+      - 5. Arbitration: 5-arbitration-arbitrator.md
+  - CORE MECHANICS: 
+      - Test: page.md
+
+  - PRODUCT GUIDES:
+      - Example: 4-accept-settle.md
   # If you use the Material "blog" plugin, it auto-builds the blog.
   # You can either keep a manual page OR rely on the plugin's index.
   - Blog:
@@ -162,11 +171,18 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:support@nuvalaw.com
 
+  # Variables for use in Markdown via the "macros" plugin
+
+  oic_protocol: "OIC Protocol v2.1"
+  moj_protocol: "MoJ Protocol v2.1"
+  chc_protocol: "CHC Protocol v2.1"
+  ftc_protocol: "FTC Protocol v1.0"
+  itc_protocol: "ITC Protocol v1.0"
+
 # ------------------------------
 # COPYRIGHT
 # ------------------------------
-copyright: >
-  Copyright © 2017 - 2025 Nuvalaw UK Limited, 1 Paternoster Lane, St. Paul’s, London EC4M 7BQ
+copyright: "© 2017-2025, Nuvalaw UK Limited, 1 Paternoster Lane, St. Paul's, London EC4M 7BQ"
 
 # ------------------------------
 # ASSETS
