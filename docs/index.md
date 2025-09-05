@@ -21,7 +21,7 @@ Common areas include:
 - Each page includes step‑by‑step instructions and, where useful, screenshots.  
 - Use the search function for quick lookups.
 
-For product issues or urgent support, contact: 📧 [Support]({{ support }})
+For product issues or urgent support, contact: {{ support }}.
 
 
 ---
