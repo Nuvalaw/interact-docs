@@ -10,11 +10,11 @@ If you notice a clerical error or mistake in an award, you may request that the 
 1. Go to the **Claim Summary** tab and open the **Outcome** sub-tab.  
 2. Click the yellow **Request Correction** button.
 
-![Download Award](/assets/download-award-draft-outcome.png)
+![Download Award](../../assets/download-award-draft-outcome.png)
 
 Enter the details of your request and click **Submit**.
 
-![Correction Request](/assets/award-correction-request.png)
+![Correction Request](../../assets/award-correction-request.png)
 
 After submission:
 
@@ -28,7 +28,7 @@ If the other side does not submit a request, your correction (with their review,
 
 Go to the **Claim Summary** tab and open the **Requests** sub-tab.
 
-![Requests Sub-Tab](/assets/requests-sub-tab.png)
+![Requests Sub-Tab](../../assets/requests-sub-tab.png)
 
 1. Click **View Request**.
 2. Assign the task to yourself to respond.  
@@ -39,7 +39,7 @@ If you also wish to make a correction request:
 - Select the checkbox **I wish to request an additional correction to the award** [2].  
 - A new text box will appear where you can enter your request to the arbitrator [3].
 
-![Additional Correction Request](/assets/additional-correction-request.png) 
+![Additional Correction Request](../../assets/additional-correction-request.png)
 
 The other side will receive a task to review and respond to any additional request. The complete exchange is then sent to the arbitrator.
 

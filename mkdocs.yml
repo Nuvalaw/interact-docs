@@ -69,7 +69,8 @@ nav:
       - 3. Final Review: 3-final-review-claimant.md
       - 4. Accept & Settle: 4-accept-settle.md
       - 5. Arbitration: 5-arbitration.md
-  - CORE MECHANICS: 
+  - CORE MECHANICS:
+      - Case Management: assignments-due-dates.md
       - Configuring Claims: configuring-claims.md
       - Uploading Evidence: uploading-evidence.md
       - Setting Liability Position: setting-liability-position.md
@@ -81,20 +82,21 @@ nav:
       - Notifications: notifications.md
       - Messaging: messaging.md
       - Case Timeline: case-timeline.md
-      - Assignments & Due Dates: assignments-due-dates.md
   - ROLES & PERMISSIONS:
       - Users & Roles: users-roles.md
       - Permissions: permissions.md
-  - PRODUCT GUIDES:
-      - OIC: oic-guide.md
-      - MoJ: moj-guide.md
-      - Fast Track: ftc-guide.md
-      - Intermediate Track: itc-guide.md
-      - Credit Hire: chc-guide.md
+  - INTEGRATIONS:
+      - Integrating Interact: integration-overview.md
+#  - PRODUCT GUIDES:
+#      - OIC: oic-guide.md
+#      - MoJ: moj-guide.md
+#      - Fast Track: ftc-guide.md
+#      - Intermediate Track: itc-guide.md
+#      - Credit Hire: chc-guide.md
 #  - ADMINISTRATION:
- #     - Admin Overview: admin-overview.md
-  #    - Managing Users: managing-users.md
-   #   - Managing Organisations: managing-organisations.md
+#      - Admin Overview: admin-overview.md
+#      - Managing Users: managing-users.md
+#      - Managing Organisations: managing-organisations.md
   
   # If you use the Material "blog" plugin, it auto-builds the blog.
   # You can either keep a manual page OR rely on the plugin's index.
@@ -137,9 +139,13 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  
+  # ...existing code...
+  # - pymdownx.emoji:
+  #    emoji_index: !!python/name:pymdownx.emoji.twemoji
+  #    emoji_generator: !!python/name:pymdownx.emoji.to_svg
+# ...existing code...
+  
   - pymdownx.highlight          # <-- Syntax highlighting; configure more if you want line numbers, etc.
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -204,6 +210,7 @@ extra:
   chc_protocol: "`CHC Protocol v2.1`"
   ftc_protocol: "`FTC Protocol v1.0`"
   itc_protocol: "`ITC Protocol v1.0`"
+  support: "support@nuvalaw.com" # <-- Used in docs as {{ support }}
 
 # ------------------------------
 # COPYRIGHT

@@ -5,7 +5,7 @@ Messaging allows you to communicate and record information within a claim. There
 1. Go to the **Positions** tab of the claim.  
 2. Click the **Messaging** icon to open the messaging drawer.
 
-![Message Drawer Icon](/assets/message-drawer-icon.png)
+![Message Drawer Icon](../../assets/message-drawer-icon.png)
 
 ## File Notes
 
@@ -13,7 +13,7 @@ Messaging allows you to communicate and record information within a claim. There
 - Used to record relevant information for internal reference.  
 - Not visible to the other party or the arbitrator.
 
-![File Note](/assets/file-note.png)
+![File Note](../../assets/file-note.png)
 
 ## Claim Chat
 

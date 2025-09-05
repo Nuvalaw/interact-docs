@@ -1,3 +1,3 @@
 # Permissions
 
-Detailed permissions by role and feature area.
+{% include-markdown "includes/blocks/permissions.md" %}

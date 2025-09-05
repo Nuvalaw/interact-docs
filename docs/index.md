@@ -2,21 +2,26 @@
 hide:
   - feedback
 ---
+# Nuvalaw Help Centre
 
-# Welcome to the Nuvalaw Help Centre
+Welcome to the Help Centre for **Interact**, Nuvalaw’s online dispute resolution (ODR) platform. This site explains how to use the platform, configure it for your organisation, and access support.
 
-Here you will find documentation for [Interact](https://gb.interact.nuvalaw.com/), our full feature ODR platform.
+## Getting Started
 
-## Commands
+Start with the **Base Flow Overview** to understand how cases move through the system. Use the navigation menu on the left or the search box (top-right) to find specific topics.
+    
+Common areas include:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Case management and assignments  
+- Uploading evidence and making offers  
+- Arbitration, awards, and corrections  
 
-## Project layout
+## Finding Help
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Each page includes step‑by‑step instructions and, where useful, screenshots.  
+- Use the search function for quick lookups.
+
+For product issues or urgent support, contact: 📧 [Support]({{ support }})
+
+
+---

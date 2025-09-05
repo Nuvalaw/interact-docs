@@ -4,6 +4,8 @@ The system helps you track which tasks you are responsible for and when they nee
 
 On the **Tasks** tab of the homepage, you will see four sub-tabs:
 
+![Task Tabs](../../assets/task-tabs.png)
+
 - **All** — lists all tasks belonging to your team(s).
 - **Assigned To Me** — lists all tasks assigned to you.
 - **Due Today** — shows tasks that are due today.  
@@ -19,6 +21,8 @@ When you create a draft claim, a task is automatically created for you. Drafts a
   2. Click the **kebab menu** (three dots) in the top right.  
   3. Select **Delete**.  
 
+![Delete Draft](../../assets/delete-draft.png)
+
 !!! Note
     Deletion is final. No record is kept of deleted drafts.
 
@@ -29,10 +33,14 @@ When a claim is referred to your team, you will see:
 - A **grey pipe** next to the task description.  
 - A **+ Assign To Me** button on the right.  
 
+![Assign To Me](../../assets/assign-to-me.png)
+
 Once you click **+ Assign To Me**: 
 
 - The pipe turns **yellow**.  
-- Your name appears in a **yellow pill**, confirming ownership.  
+- Your name appears in a **yellow pill**, confirming ownership.
+
+![My Task](../../assets/my-task.png)
 
 To unassign a task:
 
