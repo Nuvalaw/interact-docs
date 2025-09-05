@@ -91,10 +91,10 @@ nav:
       - Fast Track: ftc-guide.md
       - Intermediate Track: itc-guide.md
       - Credit Hire: chc-guide.md
-  - ADMINISTRATION:
-      - Admin Overview: admin-overview.md
-      - Managing Users: managing-users.md
-      - Managing Organisations: managing-organisations.md
+#  - ADMINISTRATION:
+ #     - Admin Overview: admin-overview.md
+  #    - Managing Users: managing-users.md
+   #   - Managing Organisations: managing-organisations.md
   
   # If you use the Material "blog" plugin, it auto-builds the blog.
   # You can either keep a manual page OR rely on the plugin's index.

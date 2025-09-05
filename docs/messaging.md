@@ -1,3 +1,3 @@
 # Messaging
 
-How to send and manage messages within a case.
+{% include-markdown "includes/blocks/send-chat-message.md" %}
