@@ -1,16 +1,18 @@
-# Responding to a Referral
+# Setting Liability Position
 
-Use of an Interact product begins for a defendant (the respondent) when they respond to the referral of a claim by a claimant.
+## Claimant
 
-## Accept or Reject Claim
+A claim is either for quantum, liability, or both. Where a claim is for quantum, the liability has been agreed and must merely be captured. Where liability is in dispute, you will need to set your position.
 
-{% include-markdown "includes/blocks/defendant-accept-reject-claim.md" %}
+### Capture Agreed Liability 
 
-## Upload Evidence
+{% include-markdown "includes/blocks/claimant-capture-agreed-liability.md" %}
 
-{% include-markdown "includes/blocks/upload-evidence.md" %}
+### Set Liability Position
 
-## Liability
+{% include-markdown "includes/blocks/claimant-set-liability-position.md" %}
+
+## Defendant
 
 A claim is either for quantum, liability, or both. Where a claim is for quantum, the liability has been agreed and must merely be captured. Where liability is in dispute, you will need to set your position.
 
@@ -22,17 +24,6 @@ In quantum only claims, liability is agreed. You should verify that the liabilit
 
 In liability or liability and quantum claims, you will need to set your offer on liability in response to the claimant's claim.
 
-
 {% include-markdown "includes/blocks/defendant-liability-offer.md" %}
-
-## Quantum Offer
-
-In claims that involve quantum, you will need to capture your offers against each of loss.
-
-{% include-markdown "includes/blocks/defendant-quantum-offer.md" %}
-
-## Submit Offer
-
-When you are ready, submit the offer to the claimant by clicking the "Arbitration" button on the top right of the screen. 
 
 ---

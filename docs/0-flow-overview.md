@@ -1,5 +1,3 @@
-
-
 # Base Flow Overview
 
 On Interact, we follow a standard process for all products, with minor deviations.  

@@ -32,6 +32,9 @@ jobs:
       - name: Install deps
         run: |
           pip install -r requirements.txt
+      - name: Lint Markdown spacing
+        run: |
+          python scripts/md_spacing_lint.py
       - name: Build site
         run: mkdocs build --strict
       - name: Upload artifact

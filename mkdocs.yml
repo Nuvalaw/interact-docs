@@ -1,7 +1,7 @@
 # ------------------------------
 # SITE METADATA
 # ------------------------------
-site_name: Interact Documentation            # <-- Shown in the header if no logo or as HTML title
+site_name: Help Centre            # <-- Shown in the header if no logo or as HTML title
 site_description: Documentation for Interact, the ODR platform by Nuvalaw
 site_author: Nuvalaw
 site_url: https://help.nuvalaw.com           # <-- Important for sitemap, canonical URLs, and SEO
@@ -61,22 +61,47 @@ theme:
 # (Order doesn’t matter to MkDocs, but keep it human-ordered.)
 # ------------------------------
 nav:
-  - Home: index.md
+  - Welcome: index.md
   - BASE FLOW:
       - Base Flow Overview: 0-flow-overview.md
       - 1. Referring a Case: 1-refer-claim-claimant.md
       - 2. Responding to a Case: 2-respond-to-referral-defendant.md
       - 3. Final Review: 3-final-review-claimant.md
       - 4. Accept & Settle: 4-accept-settle.md
-      - 5. Arbitration: 5-arbitration-arbitrator.md
+      - 5. Arbitration: 5-arbitration.md
   - CORE MECHANICS: 
-      - Test: page.md
-
+      - Configuring Claims: configuring-claims.md
+      - Uploading Evidence: uploading-evidence.md
+      - Setting Liability Position: setting-liability-position.md
+      - Making Offers: making-offers.md
+      - Downloading Awards: downloading-awards.md
+      - Requesting Award Corrections: requesting-award-corrections.md
+      - Responding to Supplementary Information Requests: responding-to-sir.md
+  - COMMUNICATIONS:
+      - Notifications: notifications.md
+      - Messaging: messaging.md
+      - Case Timeline: case-timeline.md
+      - Assignments & Due Dates: assignments-due-dates.md
+  - ROLES & PERMISSIONS:
+      - Users & Roles: users-roles.md
+      - Permissions: permissions.md
   - PRODUCT GUIDES:
-      - Example: 4-accept-settle.md
+      - OIC: oic-guide.md
+      - MoJ: moj-guide.md
+      - Fast Track: ftc-guide.md
+      - Intermediate Track: itc-guide.md
+      - Credit Hire: chc-guide.md
+  - ADMINISTRATION:
+      - Admin Overview: admin-overview.md
+      - Managing Users: managing-users.md
+      - Managing Organisations: managing-organisations.md
+  
   # If you use the Material "blog" plugin, it auto-builds the blog.
   # You can either keep a manual page OR rely on the plugin's index.
-  - Blog:
+
+  - POLICIES:
+      - Acceptable Use: acceptable-use-policy.md
+  - BLOG:
       - blog/index.md
 
 # ------------------------------
@@ -172,13 +197,13 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:support@nuvalaw.com
 
-  # Variables for use in Markdown via the "macros" plugin
+  # Variables for use in Markdown via the "macros" plugin. Check version numbers before each deploy.
 
-  oic_protocol: "OIC Protocol v2.1"
-  moj_protocol: "MoJ Protocol v2.1"
-  chc_protocol: "CHC Protocol v2.1"
-  ftc_protocol: "FTC Protocol v1.0"
-  itc_protocol: "ITC Protocol v1.0"
+  oic_protocol: "`OIC Protocol v2.1`"
+  moj_protocol: "`MoJ Protocol v2.1`"
+  chc_protocol: "`CHC Protocol v2.1`"
+  ftc_protocol: "`FTC Protocol v1.0`"
+  itc_protocol: "`ITC Protocol v1.0`"
 
 # ------------------------------
 # COPYRIGHT
