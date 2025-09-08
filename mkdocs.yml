@@ -87,12 +87,12 @@ nav:
       - Permissions: permissions.md
   - INTEGRATIONS:
       - Integrating Interact: integration-overview.md
-#  - PRODUCT GUIDES:
-#      - OIC: oic-guide.md
-#      - MoJ: moj-guide.md
-#      - Fast Track: ftc-guide.md
-#      - Intermediate Track: itc-guide.md
-#      - Credit Hire: chc-guide.md
+  - PROTOCOL GUIDES:
+      - OIC Protocol: oic-guide.md
+      - MoJ Protocol: moj-guide.md
+#      - Fast Track Protocol: ftc-guide.md
+#      - Intermediate Track Protocol: itc-guide.md
+      - Credit Hire Protocol: chc-guide.md
 #  - ADMINISTRATION:
 #      - Admin Overview: admin-overview.md
 #      - Managing Users: managing-users.md
@@ -211,6 +211,7 @@ extra:
   ftc_protocol: "`FTC Protocol v1.0`"
   itc_protocol: "`ITC Protocol v1.0`"
   support: "support@nuvalaw.com" # <-- Used in docs as {{ support }}
+  product: "james@nuvalaw.com"
 
 # ------------------------------
 # COPYRIGHT
