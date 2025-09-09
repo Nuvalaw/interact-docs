@@ -13,8 +13,7 @@ On Interact, we follow a standard process for all products, with minor deviation
 !!! Note
     If the Defendant chooses to reject the claim upon receipt of the referral, a certificate of case status is published to the case record which the claimant may use in court as evidence of their attempt to arbitrate. This certificate contains the defendant's response and rejection reasons.
 
-
-### Product differences (vs Base)
+## Product differences (vs Base)
 
 | Item / Step                                      | OIC       | MoJ     | CHC       |
 |--------------------------------------------------|-----------|---------|-----------|
@@ -40,7 +39,7 @@ On Interact, we follow a standard process for all products, with minor deviation
 
 ---
 
-### Documents by Step: Required vs Optional
+## Documents by Step: Required vs Optional
 
 | Step / Touchpoint                            | OIC                                                                 | MoJ                                                                                                  | CHC                                        |
 |----------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------|
