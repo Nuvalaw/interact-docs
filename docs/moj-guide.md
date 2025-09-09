@@ -1,7 +1,5 @@
 # MoJ Guide
 
-
-
 ## Quick Guide (Stage 3–equivalent arbitration)
 
 !!! abstract "Summary"

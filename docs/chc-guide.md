@@ -1,6 +1,5 @@
 # Credit Hire Guide
 
-
 ## Quick Guide (Credit Hire arbitration)
 
 !!! abstract "So what?"
