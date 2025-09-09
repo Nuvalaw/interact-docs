@@ -62,6 +62,7 @@ theme:
 # ------------------------------
 nav:
   - Welcome: index.md
+  - Getting Support: getting-support.md
   - BASE FLOW:
       - Base Flow Overview: 0-flow-overview.md
       - 1. Referring a Case: 1-refer-claim-claimant.md
