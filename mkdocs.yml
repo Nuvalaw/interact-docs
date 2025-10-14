@@ -211,7 +211,7 @@ extra:
   chc_protocol: "`CHC Protocol v2.1`"
   ftc_protocol: "`FTC Protocol v1.0`"
   itc_protocol: "`ITC Protocol v1.0`"
-  support: "support@nuvalaw.com" # <-- Used in docs as {{ support }}
+  support: "support@nuvalaw.com"  # <-- Used in docs as {{ support }}
   product: "james@nuvalaw.com"
 
 # ------------------------------
